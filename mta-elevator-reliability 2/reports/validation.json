@@ -1,0 +1,96 @@
+{
+  "status": "byte-identical",
+  "runtime": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5"
+  },
+  "raw_source_checks": {
+    "sha256": "d3caef0322e5e4f84e567a1d630f2143f0ab5cb05a81b6fc93691b3932e302d9",
+    "rows": 83079,
+    "columns": 22,
+    "first_month": "2015-01-01",
+    "last_month": "2026-08-01",
+    "missing_24_hour_percentages": 2553,
+    "zero_included_hour_rows": 2553,
+    "max_published_rate_difference_pp": 7.349854058702476e-11,
+    "duplicate_keys": 0,
+    "invalid_hours": 0,
+    "invalid_outage_counts": 0
+  },
+  "comparison": {
+    "generated_sha256": "194e7d92d041f76459b31a7ecb0b22c54c0713fa7c7a8047e1e3d1261cab8272",
+    "reference_sha256": "194e7d92d041f76459b31a7ecb0b22c54c0713fa7c7a8047e1e3d1261cab8272",
+    "byte_identical": true,
+    "columns_and_order_identical": true,
+    "key_sets_identical": true,
+    "row_order_identical": true,
+    "exact_columns_identical": true,
+    "numeric_values_match": true,
+    "absolute_tolerance": 1e-09,
+    "relative_tolerance": 1e-10,
+    "maximum_absolute_difference_by_column": {
+      "24-Hour Hours Available": 0.0,
+      "24-Hour Total Hours": 0.0,
+      "Downtime Hours": 0.0,
+      "Monthly Availability": 0.0,
+      "Annual Availability": 0.0,
+      "Availability Change 2024 to 2025 pp": 0.0
+    }
+  },
+  "dashboard_metrics": {
+    "elevators": 211,
+    "rows": 5064,
+    "rows_per_year": {
+      "2024": 2532,
+      "2025": 2532
+    },
+    "fewer_outages": 102,
+    "of_those_improved": 84,
+    "of_those_declined": 18,
+    "declined_share_of_102": 0.17647058823529413,
+    "availability_bands_2025": {
+      "below_95_percent": 6,
+      "95_to_under_98_percent": 63,
+      "98_percent_or_higher": 142
+    },
+    "overall_availability_fraction": {
+      "2024": 0.9796936013202122,
+      "2025": 0.9805520139775591
+    },
+    "exception_outages": {
+      "2024": 775,
+      "2025": 665
+    },
+    "exception_downtime_hours": {
+      "2024": 2982.9166666666397,
+      "2025": 3881.5166666663904
+    },
+    "exception_downtime_net_increase_hours": 898.59999999975,
+    "EL194_and_EL138_net_increase_hours": 422.21666666608996,
+    "EL194_and_EL138_share_of_exception_net_increase": 0.46986052377721726,
+    "exception_codes_in_decline_order": [
+      "EL194",
+      "EL138",
+      "EL192",
+      "EL112",
+      "EL464",
+      "EL434",
+      "EL331",
+      "EL515",
+      "EL249",
+      "EL145",
+      "EL784",
+      "EL761",
+      "EL183",
+      "EL317",
+      "EL467",
+      "EL739",
+      "EL373",
+      "EL506"
+    ],
+    "heatmap_cells": 216,
+    "EL506_availability_change_pp": -0.0005946885844432259,
+    "EL506_downtime_change_hours": -0.5333333330999892
+  }
+}
